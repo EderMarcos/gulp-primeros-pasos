@@ -1,0 +1,69 @@
+{
+	"apps": [
+		{
+			"name": "Axis_Dev_733_Qlik_Breeder.qvf",
+			"id": "id_01_app",
+			"src": "./app01/src",
+			"type": "type",
+			"sheets": [
+				{
+					"name": "S01",
+					"components": [
+						"5e9be296-ef1d-4dc3-8efd-22dcde840659",
+						"9675fe96-e8db-4b3e-905d-d51980e203c2",
+						"4a0ac412-717a-42cc-9ac4-313912c0dc70"
+					]
+				},
+				{
+					"name": "S02",
+					"components": [
+						"5e9be296-ef1d-4dc3-8efd-22dcde840659",
+						"9675fe96-e8db-4b3e-905d-d51980e203c2",
+						"4a0ac412-717a-42cc-9ac4-313912c0dc70"
+					]
+				},
+				{
+					"name": "S03",
+					"components": [
+						"5e9be296-ef1d-4dc3-8efd-22dcde840659",
+						"9675fe96-e8db-4b3e-905d-d51980e203c2",
+						"4a0ac412-717a-42cc-9ac4-313912c0dc70"
+					]
+				}
+			],
+			"filters": [
+				"2cdfcbb7-f3dc-4497-95d2-e0a42ae89054",
+				"9e7687fc-a5df-4b9a-ad40-abb14f68acda"
+			]
+		},
+		{
+			"name": "Application 02",
+			"id": "id_02_app",
+			"src": "./app02/src",
+			"type": "type",
+			"sheets": [
+				{
+					"name": "S01",
+					"components": [
+						"469f911a-24ef-4b35-9187-a2c2cd1a834d"
+					]
+				}
+			],
+			"filters": [
+				"4fd83d7d-fb2b-4782-b6b5-7e0a781b75d5"
+			]
+		}
+	],
+	"routerProvider": [
+		{
+			"route": "/app01",
+			"controller": "App01Controller",
+			"templateUrl": "App01View.html"
+		},
+		{
+			"route": "/app01",
+			"controller": "App01Controller",
+			"templateUrl": "App01View.html"
+		}
+	]
+}

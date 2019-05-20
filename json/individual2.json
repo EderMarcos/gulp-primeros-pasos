@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "Application 02",
+      "id": "id_02_app",
+      "src": "./app02/src",
+      "type": "type",
+      "sheets": [
+        {
+          "name": "S01",
+          "components": [
+            "469f911a-24ef-4b35-9187-a2c2cd1a834d"
+          ]
+        }
+      ],
+      "filters": [
+        "4fd83d7d-fb2b-4782-b6b5-7e0a781b75d5"
+      ]
+    }
+  ],
+  "routerProvider": [
+    {
+      "route": "/app01",
+      "controller": "App01Controller",
+      "templateUrl": "App01View.html"
+    }
+  ]
+}
